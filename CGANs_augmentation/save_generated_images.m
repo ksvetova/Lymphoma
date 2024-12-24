@@ -1,8 +1,9 @@
 % WARNING: in this script we consider the 3 classes' generated images
 % to be the SAME NUMBER for every label
 
-addpath(pwd);
+
 % Create a folder to save individual generated images
+addpath(pwd);
 generatedImageFolder = 'generated_images';
 if ~exist(generatedImageFolder, 'dir')
     mkdir(generatedImageFolder);  % Create the folder if it doesn't exist
